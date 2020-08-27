@@ -141,12 +141,13 @@ ul li a:hover {
 
 h1 {
   color: black;
-  font-size: 30px
+  font-size: 60px
   margin: 0px;
   background-color: white;
-  text-align: center;
+  text-align: left;
+  font: arial;
 }
 p {
   color: #999999;
-  background-color: rgb(0, 0, 0);
+  background-color: white;
 }
