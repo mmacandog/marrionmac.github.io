@@ -116,11 +116,12 @@ nav {
 
 h1 {
   color: black;
-  font-size: 60px
+  font-size: 500px
   margin: 0px;
   background-color: white;
   text-align: center;
   font: arial;
+  line-height: 100px
 }
 
 ul {
