@@ -114,6 +114,15 @@ nav {
   background-color: #fff;
 }
 
+h1 {
+  color: black;
+  font-size: 60px
+  margin: 0px;
+  background-color: white;
+  text-align: center;
+  font: arial;
+}
+
 ul {
 
 }
@@ -138,15 +147,6 @@ ul li a:hover {
   color: red;
 }
 
-
-h1 {
-  color: black;
-  font-size: 60px
-  margin: 0px;
-  background-color: white;
-  text-align: left;
-  font: arial;
-}
 p {
   color: #999999;
   background-color: white;
