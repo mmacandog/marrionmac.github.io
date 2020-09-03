@@ -21,8 +21,24 @@
         </ul>
       </nav>
     </header>
-    <div class="contact_container">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkIucNEI7YJzn4Tezbao_pBz02ZkHODQa8kEWBA406CSbCIQ/viewform?embedded=true">Loading…</iframe>
-    </div>
+
+    <main>
+      <div class="contact_container">
+        <h3>Send e-mail to someone@example.com:</h3>
+          <div class="form_container">
+          <form action="mailto:marrion.mac@csu.fullerton.edu" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name" size><br>
+          E-mail:<br>
+          <input type="text" name="mail"><br>
+          Comment:<br>
+          <input type="text" id="comment-id" name="comment" placeholder="Write something.." style="height:200px><br><br>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+        </form>
+      </div>
+      </div>
+    </main>
+
   </body>
 </html>
