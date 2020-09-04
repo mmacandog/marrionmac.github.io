@@ -180,6 +180,7 @@ header nav ul li a {
 
 @media only screen and (min-width: 1000px) {
   header .header-brand {
+    font-size: 30px;
     display: block;
     margin: 31px 0;
     text-align: left;
@@ -202,7 +203,7 @@ header nav ul li a {
 
   header nav ul li a {
     font-family: Quicksand;
-    font-size: 16px;
+    font-size: 20px;
     color: #111;
     line-height: 60px;
   }
