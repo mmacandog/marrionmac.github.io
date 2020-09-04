@@ -466,7 +466,7 @@ header nav ul li a {
   .container h7 {
     display: block;
     font-family: Quicksand;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 30px;
     color: #271619;
@@ -504,8 +504,8 @@ header nav ul li a {
 
   .content h3 {
     font-family: Quicksand;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
     color: #525252;
     text-align: center;
   }
@@ -513,8 +513,8 @@ header nav ul li a {
   .content p {
     padding: 30px 60px 30px 60px;
     font-family: Quicksand;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
     color: #808080;
     text-align: justify;
   }
@@ -576,8 +576,8 @@ header nav ul li a {
   .work-content h4 {
     padding: 10px 60px 10px 60px;
     font-family: Quicksand;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
     color: #525252;
     text-align: left;
   }
@@ -586,8 +586,8 @@ header nav ul li a {
     margin: auto;
     padding: 40px 60px 60px 60px;
     font-family: Quicksand;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
     color: #808080;
     text-align: justify;
   }
