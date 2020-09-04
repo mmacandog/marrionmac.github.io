@@ -586,7 +586,7 @@ header nav ul li a {
     margin: auto;
     padding: 40px 60px 60px 60px;
     font-family: Quicksand;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     color: #808080;
     text-align: justify;
@@ -622,6 +622,15 @@ header nav ul li a {
     margin: auto;
     text-align: justify;
     width: 60%;
+  }
+
+  .project-content p {
+    margin: auto;
+    padding: 10px 20px 20px;
+    font-family: Quicksand;
+    font-size: 18px;
+    line-height: 20px;
+    color: #808080;
   }
 
 }
