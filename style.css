@@ -609,6 +609,31 @@ input, select {
       color: #808080;
       text-align: center;
     }
+    
+    /*GALLERY*/
+    .gallery_container {
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .row {
+      width: 100%;
+    }
+
+    /* Create two equal columns that sits next to each other */
+    .column {
+      float: left;
+      width: 33%;
+    }
+
+    .column img {
+      max-width: 200px;
+      margin-top: 10px;
+      vertical-align: middle;
+      width: 60%;
+    }
+
 
 
 }
