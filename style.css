@@ -331,6 +331,8 @@ input, select {
     line-height: 30px;
     color: #525252;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .work-content {
