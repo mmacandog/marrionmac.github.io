@@ -491,13 +491,10 @@ input, select {
   }
 
   .content h2 {
-    background-image: url('img/bgimg.png');
-    background-repeat: no-repeat;
     display: block;
   }
 
   .content h1 {
-
     display: block;
   }
 
