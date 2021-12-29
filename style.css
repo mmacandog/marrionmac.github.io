@@ -163,7 +163,7 @@ input, select {
   }
 
   .footer_container .footer-content {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -208,9 +208,8 @@ input, select {
   .content h2 {
     font-family: 'Rubik', sans-serif;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 35px;
     color: #000;
-    text-shadow: 2px 2px 8px #ddd;
   }
 
   .content h1 {
@@ -458,6 +457,7 @@ input, select {
 
 .footer_container .footer-content {
   position: fixed;
+  z-index: 100;
 }
 
   .footer_container .logos {
@@ -513,6 +513,7 @@ input, select {
     /* padding-right: 100px; */
     /* float: left; */
     max-width: 300px;
+    height: fit-content;
   }
 
   /* ABOUT */
