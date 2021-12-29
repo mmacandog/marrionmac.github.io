@@ -422,6 +422,7 @@ input, select {
     line-height: 30px;
     padding: 0 20px 0 100px;
     float: left;
+    position: fixed;
   }
 
   header nav ul {
