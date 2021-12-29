@@ -104,6 +104,10 @@ input, select {
 
   /* MY CODE */
 
+  html {
+	scroll-behavior: smooth;
+  }
+
   * {
     text-decoration: none;
   }
@@ -261,8 +265,8 @@ input, select {
   .content h3 {
     padding-top: 30px;
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
     color: #000;
     text-align: center;
   }
@@ -329,8 +333,8 @@ input, select {
 
   .research_container h3{
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
     color: #000;
     text-align: center;
     padding-top: 50px;
@@ -351,7 +355,7 @@ input, select {
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
     line-height: 15px;
-    color: #0;
+    color: #000;
     text-align: center;
   }
 
@@ -359,7 +363,7 @@ input, select {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     line-height: 25px;
-    color: #0;
+    color: #000;
     text-align: center;
   }
 
@@ -526,8 +530,8 @@ input, select {
 
   .content h3 {
     font-family: 'Rubik', sans-serif;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
     color: black;
     text-align: center;
   }
@@ -611,7 +615,7 @@ input, select {
       font-family: 'Rubik', sans-serif;
       font-size: 20px;
       line-height: 25px;
-      color: #525252;
+      color: #000;
       text-align: center;
     }
 
@@ -621,7 +625,7 @@ input, select {
       font-family: 'Rubik', sans-serif;
       font-size: 15px;
       line-height: 20px;
-      color: #808080;
+      color: #000;
       text-align: center;
     }
 
@@ -647,6 +651,25 @@ input, select {
       margin-top: 10px;
       vertical-align: middle;
       width: 60%;
+    }
+
+    .wave {
+      animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+      animation-duration: 2.5s;        /* Change to speed up or slow down */
+      animation-iteration-count: infinite;  /* Never stop waving :) */
+      transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+      display: inline-block;
+    }
+
+    @keyframes wave-animation {
+        0% { transform: rotate( 0.0deg) }
+       10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+       20% { transform: rotate(-8.0deg) }
+       30% { transform: rotate(14.0deg) }
+       40% { transform: rotate(-4.0deg) }
+       50% { transform: rotate(10.0deg) }
+       60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+      100% { transform: rotate( 0.0deg) }
     }
 
 }
