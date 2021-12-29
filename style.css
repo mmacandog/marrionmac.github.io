@@ -202,10 +202,9 @@ input, select {
 
   .content h2 {
     font-family: 'Rubik', sans-serif;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 25px;
+    line-height: 30px;
     color: #000;
-    text-align: center;
     text-shadow: 2px 2px 8px #ddd;
   }
 
@@ -215,7 +214,6 @@ input, select {
     font-size: 20px;
     line-height: 30px;
     color: #000;
-    text-align: center;
   }
 
   .home-img {
@@ -490,14 +488,6 @@ input, select {
     padding: 0 0 0 0;
   }
 
-  .content h2 {
-    display: block;
-  }
-
-  .content h1 {
-    display: block;
-  }
-
   .home-img {
     padding-right: 100px;
     float: left;
@@ -592,7 +582,7 @@ input, select {
 
 
     .work-content h4 {
-      font-family: 'Rubik', sans-serif;   
+      font-family: 'Rubik', sans-serif;
       font-size: 20px;
       line-height: 25px;
       color: #525252;
@@ -608,7 +598,7 @@ input, select {
       color: #808080;
       text-align: center;
     }
-    
+
     /*GALLERY*/
     .gallery_container {
       text-align: center;
