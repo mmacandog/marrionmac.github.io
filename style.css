@@ -414,6 +414,10 @@ input, select {
 
 @media only screen and (min-width: 1000px) {
 
+  a:hover {
+    background-color: yellow;
+  }
+
   header .header-brand {
     font-size: 30px;
     display: block;
