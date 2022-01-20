@@ -33,7 +33,7 @@ if (!$conn) {
 $sql = <<<SQL
 SELECT *
 FROM combined_2021
-ORDER BY RAND()  
+ORDER BY RAND()
 LIMIT 1;
 SQL;
 
