@@ -160,10 +160,10 @@ input, select {
 
   .footer_container {
     display: block;
-    align-items: center;
+    align-items: left;
     background-color: white;
     /* margin: 100px auto; */
-    width: 100%;
+    width: 20%;
     /* height: 100px; */
   }
 
