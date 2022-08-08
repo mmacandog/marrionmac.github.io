@@ -161,6 +161,7 @@ input, select {
   .footer_container {
     display: block;
     align-items: center;
+    background-color: white;
     /* margin: 100px auto; */
     width: 100%;
     /* height: 100px; */
